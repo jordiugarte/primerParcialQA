@@ -2,7 +2,7 @@ plugins {
     id 'java'
 }
 
-group 'UnitTest'
+group 'unitTestBasic2021'
 version '1.0-SNAPSHOT'
 
 repositories {
