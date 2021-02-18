@@ -24,26 +24,6 @@ public class CalcularNotasParameters {
         this.expectedResult=expectedResult;
     }
 
-    /**
-     * Test 1 ---- 0 (positive test)
-     * Test 2 ---- 100 (positive test)
-     * Test 3 ---- 101 (negative test)
-     * Test 4 ---- 99 (positive test)
-     * Test 5 ---- 1 (positive test)
-     * Test 6 ----  -1 (negative test)
-     * Test 7 ---- 49 (positive test)
-     * Test 8 ---- 50 (positive test)
-     * Test 9 ---- 51 (positive test)
-     * >=
-     * 90 - 100  Excelente su nota es : NN -----> 90 --- 100
-       >=    <
-     * 80 - 90  Muy Bien su nota es : NN ---->  80 --- 90
-     * 71 - 80  Bien su nota es : NN  ----> 71 --- 80
-     * 0 - 71  Esfuerzate mas, su nota es : NN ---->  0----71
-     * *** INGRESE DATOS CORRECTOS ***
-     * @return
-     */
-
     @Parameterized.Parameters
     public static Iterable<Object[]> getData(){
         List<Object[]>objects= new ArrayList<>();
@@ -76,6 +56,17 @@ public class CalcularNotasParameters {
         objects.add(new Object[]{80,80,49 ,"Esfuerzate mas, su nota es : 69"});
         objects.add(new Object[]{80,80,50 ,"Esfuerzate mas, su nota es : 70"});
         objects.add(new Object[]{80,80,51 ,"Esfuerzate mas, su nota es : 70"});
+
+
+        objects.add(new Object[]{30,30,30 ,"Esfuerzate mas, su nota es : 30"});
+        objects.add(new Object[]{90,90,90 ,"Excelente su nota es : 90"});
+        objects.add(new Object[]{95,95,95 ,"Excelente su nota es : 95"});
+        objects.add(new Object[]{80,80,80 ,"Muy Bien su nota es : 80"});
+        objects.add(new Object[]{88,88,88 ,"Muy Bien su nota es : 88"});
+        objects.add(new Object[]{89,89,89 ,"Muy Bien su nota es : 89"});
+        objects.add(new Object[]{71,71,71 ,"Bien su nota es : 71"});
+        objects.add(new Object[]{75,75,75 ,"Bien su nota es : 75"});
+        objects.add(new Object[]{79,79,79 ,"Bien su nota es : 79"});
 
         return objects;
     }

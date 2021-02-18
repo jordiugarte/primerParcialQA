@@ -1,0 +1,20 @@
+ENUNCIADO:
+
+Se tiene un metodo para calcular la hora y fecha siguiente, dado que tenemos como 6 parametro
+
+DAY, MONTH, YEAR (no acepta negative year), HOUR, MINUTE, SECOND
+
+por ejemplo si yo le envio
+
+25 Febrero 2020  23 55 59 ------>  25 Febrero 2020 23:56:00
+
+- Invalid Day : NN
+- Invalid Month : NN
+- Invalid Year : NN
+- Invalid Hour : NN
+- Invalid Minute : NN
+- Invalid Second : NN
+
+
+NOTA: No usar la clase Date de java para realizar el proceso.
+
