@@ -105,6 +105,6 @@ public class NextDayTest {
         NextDay nextDay = new NextDay();
         String actualResult= nextDay.calculateNextTime(this.day,this.month,this.year,this.hour,this.minute,this.second);
         Assert.assertEquals("ERROR! ",this.expectedResult,actualResult);
-
     }
+
 }
