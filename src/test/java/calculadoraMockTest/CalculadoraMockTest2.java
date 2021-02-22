@@ -3,13 +3,20 @@ package calculadoraMockTest;
 import calculadoraMock.BasicCalculadoraService;
 import calculadoraMock.CalculadoraMock;
 import org.junit.Assert;
+import org.junit.Rule;
 import org.junit.Test;
+import org.mockito.Mock;
 import org.mockito.Mockito;
+import org.mockito.junit.MockitoJUnit;
+import org.mockito.junit.MockitoRule;
 
-public class CalculadoraMockTest {
+public class CalculadoraMockTest2 {
 
     // PASO 2 para MOCK - instanciar el objeto con el metodo externo para mockeralo
-    BasicCalculadoraService serviceMockito= Mockito.mock(BasicCalculadoraService.class);
+     @Mock
+     BasicCalculadoraService serviceMockito;
+     @Rule
+     public MockitoRule rule= MockitoJUnit.rule();
 
      @Test
      public void verify_factorial_test(){

@@ -141,3 +141,4 @@ NOTA:  Para dia Lunes 22 Febrero
 ejecutar los comandos :
                          gradle clean   -----> limpia el compilado
                          gradle test  ----> ejecuta las pruebas
+

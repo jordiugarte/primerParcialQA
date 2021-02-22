@@ -18,7 +18,9 @@ public class CalculadoraPowerMockTest {
 
     @Test
     public void verify_calculadora_power_mock(){
+        //Paso 3 utilizat el powermock sobre la clase que tiene el metodo estatico
         PowerMockito.mockStatic(HelperCalculadoraService.class);
+        //Paso 4 darle logica al metodo estatico mocked
         Mockito.when(HelperCalculadoraService.multi(1,1)).thenReturn(1);
         Mockito.when(HelperCalculadoraService.multi(1,2)).thenReturn(2);
         Mockito.when(HelperCalculadoraService.multi(2,3)).thenReturn(6);

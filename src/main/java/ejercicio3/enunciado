@@ -1,0 +1,12 @@
+Mocks
+------
+
+Se tiene un metodo que consume un Rest API de la ASFI que nos dice si un usuario esta o no esta habilitado para
+poder acceder a un prestamo bancario, en el caso que este usuario pueda acceder a los prestamos se le asociaran
+siguiente porcentajes de interes:
+
+credito > 10000  <= 20000 el interes es de 13%
+credito > 20000  <= 30000 el interes es de 10%
+credito > 30000 el interes es de 5%
+
+crear el metodo que controla los intereses y utiliza el metodo que nos dice si un usuario esta o no habilitado.
