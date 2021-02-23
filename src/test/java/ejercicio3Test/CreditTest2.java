@@ -33,13 +33,6 @@ public class CreditTest2 {
     @Parameterized.Parameter(3)
     public boolean expectedMock;
 
-//    public CreditTest2(int ci, int credit , String expectedResult, boolean expectedMock){
-//        this.ci=ci;
-//        this.credit = credit;
-//        this.expectedResult=expectedResult;
-//        this.expectedMock=expectedMock;
-//    }
-
     @Parameterized.Parameters
     public static Iterable<Object[]> getData(){
         List<Object[]> objects= new ArrayList<>();
