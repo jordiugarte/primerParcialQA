@@ -15,4 +15,5 @@ el mensaje que se muestra es "Conexion a BD no fue satisfactoria"
 
 1) Crear los test cases en unit test
 2) Encontrar los casos faltantes mientras se crea el test coverage
+3) convertir los metodos en estaticos y realizar sus test
 
