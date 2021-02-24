@@ -9,10 +9,10 @@ public class Ej3Utils {
         if (ci.equals("0"))
             throw new Exception("ci no puede ser 0");
 
-        if (Integer.parseInt(ci) > 0 ) {
+        if (Integer.parseInt(ci) > 0) {
             Thread.sleep(1500);
             isCorrect = true;
-        }else {
+        } else {
             isCorrect = false;
         }
         return isCorrect;
