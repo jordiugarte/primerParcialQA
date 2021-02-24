@@ -1,0 +1,12 @@
+p3Test/UtilsTest.java
+ p3Test.UtilsTest
+p1Test/PrimosTest.java
+ p1Test.PrimosTest
+p2Test/DegreesTest.java
+ p2Test.DegreesTest
+p5Test/CambioMonedaTest.java
+ p5Test.CambioMonedaTest
+p6Test/TestSuite.java
+ p6Test.TestSuite
+p4Test/LoginTest.java
+ p4Test.LoginTest

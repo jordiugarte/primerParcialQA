@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="p1Test.PrimosTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2021-02-24T13:35:10" hostname="DESKTOP-LB7OGC7" time="0.009">
+  <properties/>
+  <testcase name="verify_prime_1" classname="p1Test.PrimosTest" time="0.004"/>
+  <testcase name="verify_prime_2" classname="p1Test.PrimosTest" time="0.001"/>
+  <testcase name="verify_prime_3" classname="p1Test.PrimosTest" time="0.002"/>
+  <system-out><![CDATA[ ----> AFTER METHOD
+ ----> AFTER METHOD
+ ----> AFTER METHOD
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

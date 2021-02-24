@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="p3Test.UtilsTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2021-02-24T13:35:10" hostname="DESKTOP-LB7OGC7" time="1.52">
+  <properties/>
+  <testcase name="verify_ci_empty_exception" classname="p3Test.UtilsTest" time="0.002"/>
+  <testcase name="verify_ci_timeout" classname="p3Test.UtilsTest" time="1.514"/>
+  <testcase name="verify_ci_cero_exception" classname="p3Test.UtilsTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

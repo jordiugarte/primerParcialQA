@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="p2Test.DegreesTest" tests="12" skipped="0" failures="0" errors="0" timestamp="2021-02-24T13:35:10" hostname="DESKTOP-LB7OGC7" time="0.029">
+  <properties/>
+  <testcase name="verify_degrees_all_values[0]" classname="p2Test.DegreesTest" time="0.002"/>
+  <testcase name="verify_degrees_all_values[1]" classname="p2Test.DegreesTest" time="0.0"/>
+  <testcase name="verify_degrees_all_values[2]" classname="p2Test.DegreesTest" time="0.001"/>
+  <testcase name="verify_degrees_all_values[3]" classname="p2Test.DegreesTest" time="0.0"/>
+  <testcase name="verify_degrees_all_values[4]" classname="p2Test.DegreesTest" time="0.001"/>
+  <testcase name="verify_degrees_all_values[5]" classname="p2Test.DegreesTest" time="0.001"/>
+  <testcase name="verify_degrees_all_values[6]" classname="p2Test.DegreesTest" time="0.002"/>
+  <testcase name="verify_degrees_all_values[7]" classname="p2Test.DegreesTest" time="0.0"/>
+  <testcase name="verify_degrees_all_values[8]" classname="p2Test.DegreesTest" time="0.0"/>
+  <testcase name="verify_degrees_all_values[9]" classname="p2Test.DegreesTest" time="0.001"/>
+  <testcase name="verify_degrees_all_values[10]" classname="p2Test.DegreesTest" time="0.001"/>
+  <testcase name="verify_degrees_all_values[11]" classname="p2Test.DegreesTest" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
