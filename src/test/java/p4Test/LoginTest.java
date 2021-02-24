@@ -7,9 +7,6 @@ import parcial1.filaB.p4.Login;
 import parcial1.filaB.p4.Util;
 import parcial1.filaB.p4.Util2;
 
-import static org.powermock.api.easymock.PowerMock.verify;
-
-
 public class LoginTest {
 
     Util util = Mockito.mock(Util.class);
@@ -25,12 +22,11 @@ public class LoginTest {
         Mockito.when(util.getPermision(user, password)).thenReturn(permission);
         Mockito.when(util2.isUserValid(user, password)).thenReturn(true);
 
-        Mockito.verify(util);
-        Mockito.verify(util2);
-
-        Login login = new Login();
+        Login login = new Login(util2, util);
         String actualResult = login.roleUser(user, password);
 
         Assert.assertEquals("ERROR! ", result, actualResult);
+        Mockito.verify(util).getPermision(user, password);
+        Mockito.verify(util2).isUserValid(user, password);
     }
 }

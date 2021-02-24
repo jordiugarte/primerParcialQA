@@ -5,6 +5,11 @@ public class Login {
     Util util = new Util();
     String message;
 
+    public Login(Util2 util2, Util util) {
+        this.util2 = util2;
+        this.util = util;
+    }
+
     public String roleUser(String user, String pwd) {
         if (util2.isUserValid(user, pwd)) {
             message = "PERMISSION ROLE " + util.getPermision(user, pwd);
